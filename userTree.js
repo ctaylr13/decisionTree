@@ -23,7 +23,7 @@ var dialog = {
 var User = {
   school_year: 'JUNIOR',
   is_transfer: true,
-  current_state: null
+  current_state: dialog.intro[0].id
 }
 
 var messages_sent_to_user = (user, dialog) => {
